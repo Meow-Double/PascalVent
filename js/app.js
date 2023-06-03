@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+try {
+ document.addEventListener("DOMContentLoaded", () => {
   const mediaFiles = document.querySelectorAll("img, video");
 
   let percents = document.getElementById("percents");
@@ -10,16 +11,26 @@ document.addEventListener("DOMContentLoaded", () => {
       i++;
 
       percents.innerHTML = ((i * 100) / mediaFiles.length).toFixed(1);
-      document.body.style.overflow = "hidden";
+  
 
       if (i === mediaFiles.length) {
         preloader.classList.add("preloader--hide");
         percents.innerHTML = 100;
-        document.body.style.overflowY = "auto";
+
       }
     };
   });
 });
+} catch (error) {}
+
+
+window.onload = function () {
+  setTimeout(function () {
+    percents.innerHTML = 100;
+    preloader.classList.add("preloader--hide");
+    document.body.style.overflowY = "auto";
+  })}
+
 //----------Services Button---------
 
 const button = document.querySelectorAll(".services__btn");
