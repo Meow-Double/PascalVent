@@ -137,19 +137,56 @@ new Swiper(".partners__slider", {
       spaceBetween: 20,
     },
 
-    300: {
-      slidesPerView: 1,
+    280: {
+      slidesPerView: .9,
       spaceBetween: 15,
     },
-    400: {
+    300: {
+      slidesPerView: .95,
+      spaceBetween: 15,
+    },
+    340: {
+      slidesPerView: 1.1,
+      spaceBetween: 15,
+    },
+    380: {
       slidesPerView: 1.25,
       spaceBetween: 15,
     },
+    420: {
+      slidesPerView: 1.4,
+      spaceBetween: 15,
+    },
+    480: {
+      slidesPerView: 1.6,
+      spaceBetween: 15,
+    },
+    520: {
+      slidesPerView: 1.75,
+      spaceBetween: 15,
+    },
+    560: {
+      slidesPerView: 1.9,
+      spaceBetween: 15,
+    },
+
     620: {
-      slidesPerView: 2,
+      slidesPerView: 2.1,
+      spaceBetween: 15,
+    },
+    680: {
+      slidesPerView: 2.3,
+      spaceBetween: 15,
+    },
+    720: {
+      slidesPerView: 2.45,
       spaceBetween: 15,
     },
     800: {
+      slidesPerView: 2.75,
+      spaceBetween: 15,
+    },
+    860: {
       slidesPerView: 3,
       spaceBetween: 15,
     },
@@ -181,17 +218,38 @@ new Swiper(".portfolio__slider", {
       spaceBetween: 20,
     },
 
+    280: {
+      slidesPerView: .85,
+      spaceBetween: 10,
+    },
     300: {
-      slidesPerView: 0.9,
+      slidesPerView: .93,
+      spaceBetween: 10,
+    },
+    320: {
+      slidesPerView: .95,
+      spaceBetween: 10,
+    },
+    360: {
+      slidesPerView: 1.1,
       spaceBetween: 10,
     },
     400: {
       slidesPerView: 1.25,
       spaceBetween: 10,
     },
+    450: {
+      slidesPerView: 1.45,
+      spaceBetween: 10,
+    },
+   
     500: {
-      slidesPerView: 1.5,
+      slidesPerView: 1.6,
       spaceBetween: 20,
+    },
+     540:{
+      slidesPerView: 1.85,
+      spaceBetween: 15,
     },
     600: {
       slidesPerView: 1.9,
