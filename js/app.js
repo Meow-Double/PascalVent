@@ -117,8 +117,8 @@ burger.addEventListener("click", () => {
     document.body.style.overflow = "hidden";
     gsap.fromTo(
       ".navbar__menu-item--animation",
-      { opacity: 0, x: -20, scale: 1.2 },
-      { opacity: 1, x: 0, scale: 1, duration: 0.8, stagger: 0.4 }
+      { opacity: 0, },
+      { opacity: 1, duration:1.2, }
     );
   } else {
     document.body.style.overflow = "auto";
@@ -130,7 +130,6 @@ burger.addEventListener("click", () => {
 new Swiper(".partners__slider", {
   speed: 2400,
   freeMode: true,
-  // centeredSlides: true,
   breakpoints: {
     0: {
       slidesPerView: 2.5,
